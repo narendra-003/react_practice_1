@@ -4,8 +4,16 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="app.css">
 </head>
 <body>
-    <h1>Test HTML</h1>
+    <h1>Simple Image</h1>
+    <div>
+        <button id="button_1" type="button" onclick="changeImage(0)">Click 1</button>
+        <img id="random_image" style="height:700px;object-fit:contain" src="https://images.pexels.com/photos/3836292/pexels-photo-3836292.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500" alt="Random Image">
+        <button id="button_2" type="button" onclick="changeImage(1)">Click 2</button>
+    </div>
+
+    <script src="app.js"></script>
 </body>
 </html>
